@@ -11,7 +11,7 @@
 %% Commentary:
 %  imgIn: the input equirectangular image organised in an RGB, 
 %         with size(imgIn) being [Height,Width,3].
-%  matOut: the output “double�?matrix having the saliency values.
+%  matOut: the output â€œdoubleâ€?matrix having the saliency values.
 %          Its size is [Height,Width]
 %
 %=====================================================================
@@ -46,13 +46,13 @@ center = horzcat(cubic{1:6});
 R = 7;
 r = 3;
 num = 10;
-each_image_patches = 8000;
+each_image_patches = 20000;
 batchsize = 100;
 
 
 maxepoch_bp = 10;
 
-numhid1 = 512; numpen =256; numpen2 = 128; numpen3 = 64; numopen = 16;
+numhid1 = 512; numpen = 256; numpen2 = 128; numpen3 = 64; numopen = 16;
 
 %parfor img_idx = 1:120
     
